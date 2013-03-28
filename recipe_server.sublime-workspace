@@ -1,0 +1,265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dess",
+				"dessert"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"rec",
+				"recipe-section"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"lis",
+				"listItemObj"
+			],
+			[
+				"steps",
+				"stepsArray"
+			],
+			[
+				"c",
+				"createElement"
+			],
+			[
+				"recpe",
+				"recipeSteps"
+			],
+			[
+				"re",
+				"recipe"
+			],
+			[
+				"meal",
+				"mealIndex"
+			],
+			[
+				"reci",
+				"recipeId"
+			],
+			[
+				"view",
+				"viewRecipe"
+			],
+			[
+				"lo",
+				"love"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/controllers/api.php",
+			"settings":
+			{
+				"buffer_size": 1235,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Kareem/Projects/Web/recipe_server/application/models/recipemodel.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/controllers/api.php",
+		"/Users/Kareem/Projects/Web/recipe_server/.htaccess",
+		"/Users/Kareem/Projects/Web/recipe_server/index.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/config/config.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/config/autoload.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/config/database.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/controllers/API.php",
+		"/Users/Kareem/Projects/Web/kik_app/index.html",
+		"/Users/Kareem/Projects/Web/kik_app/.gitignore",
+		"/Users/Kareem/Projects/Web/kik_app/recipe.html",
+		"/Users/Kareem/Projects/Game/cluster/Run.sh",
+		"/Users/Kareem/Projects/Game/cluster/conf.lua",
+		"/Users/Kareem/Projects/Game/cluster/main.lua",
+		"/Users/Kareem/Projects/Game/cluster/config.lua",
+		"/Users/Kareem/Projects/Game/cluster/cluster.sublime-project",
+		"/Users/Kareem/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Please use correct function.",
+			"Duration",
+			"\"prepTime\":\"\",",
+			"prep\":\"\"",
+			"push",
+			"id",
+			"console",
+			"chicken",
+			"js"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"duration",
+			"",
+			"prep\":[]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/controllers/api.php",
+					"settings":
+					{
+						"buffer_size": 1235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1033,
+								1033
+							],
+							[
+								1047,
+								1047
+							],
+							[
+								1062,
+								1062
+							],
+							[
+								1073,
+								1073
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 250.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Kareem/Projects/Web/kik_app/kik_app.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
