@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"txt",
+				"textarea"
+			],
+			[
 				"Json",
 				"json_encode"
 			],
@@ -64,26 +72,10 @@
 	"buffers":
 	[
 		{
-			"file": "application/controllers/api.php",
+			"file": ".htaccess",
 			"settings":
 			{
-				"buffer_size": 1970,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/models/recipemodel.php",
-			"settings":
-			{
-				"buffer_size": 916,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/config/database.php",
-			"settings":
-			{
-				"buffer_size": 3766,
+				"buffer_size": 719,
 				"line_ending": "Unix"
 			}
 		}
@@ -112,13 +104,16 @@
 	},
 	"file_history":
 	[
-		"/Users/Kareem/Projects/Web/recipe_server/application/models/recipemodel.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/views/add_recipe.php",
 		"/Users/Kareem/Projects/Web/recipe_server/application/controllers/api.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/models/recipemodel.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/views/welcome_message.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/controllers/recipeform.php",
+		"/Users/Kareem/Projects/Web/recipe_server/application/config/database.php",
 		"/Users/Kareem/Projects/Web/recipe_server/.htaccess",
 		"/Users/Kareem/Projects/Web/recipe_server/index.php",
 		"/Users/Kareem/Projects/Web/recipe_server/application/config/config.php",
 		"/Users/Kareem/Projects/Web/recipe_server/application/config/autoload.php",
-		"/Users/Kareem/Projects/Web/recipe_server/application/config/database.php",
 		"/Users/Kareem/Projects/Web/recipe_server/application/controllers/API.php",
 		"/Users/Kareem/Projects/Web/kik_app/index.html",
 		"/Users/Kareem/Projects/Web/kik_app/.gitignore",
@@ -146,6 +141,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"title",
 			"Please use correct function.",
 			"Duration",
 			"\"prepTime\":\"\",",
@@ -175,86 +171,32 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/controllers/api.php",
+					"file": ".htaccess",
 					"settings":
 					{
-						"buffer_size": 1970,
+						"buffer_size": 719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1685,
-								1685
+								198,
+								198
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 777.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "application/models/recipemodel.php",
-					"settings":
-					{
-						"buffer_size": 916,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								663,
-								663
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/config/database.php",
-					"settings":
-					{
-						"buffer_size": 3766,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3312,
-								3312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 628.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
