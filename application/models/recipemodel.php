@@ -19,6 +19,8 @@ class recipemodel extends CI_Model {
         // TODO: this is a dirty fix for storing JSon format in varchar
         // Change this to something cleaner.
         $order  = array("\r\n", "\n", "\r");
+        $this->prep = addslashes($this->prep);
+        $this->steps = addslashes($this->steps);
         $this->prep = "[\"" . $this->prep . "\"]";
         $this->prep = str_replace($order, '", "', $this->prep);
         $this->steps = "[\"" . $this->steps . "\"]";
