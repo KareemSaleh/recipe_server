@@ -16,6 +16,15 @@ class recipemodel extends CI_Model {
         $this->steps = $this->input->post('steps', TRUE);
         $this->mealtype = $this->input->post('mealtype', TRUE);
 
+        // TODO: this is a dirty fix for storing JSon format in varchar
+        // Change this to something cleaner.
+        $order  = array("\r\n", "\n", "\r");
+        $this->prep = "[\"" . $this->prep . "\"]";
+        $this->prep = str_replace($order, '", "', $this->prep);
+        $this->steps = "[\"" . $this->steps . "\"]";
+        $this->steps = str_replace($order, '", "', $this->steps);
+
+
         return $this->db->insert('recipes', $this);
     }
 
