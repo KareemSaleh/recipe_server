@@ -45,7 +45,7 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'live';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
@@ -64,10 +64,10 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-$db['live']['hostname'] = 'localhost';
-$db['live']['username'] = '';
-$db['live']['password'] = '';
-$db['live']['database'] = '';
+$db['live']['hostname'] = 'mysql.kareemsaleh.net';
+$db['live']['username'] = 'kareem';
+$db['live']['password'] = 'fireturtle';
+$db['live']['database'] = 'kareem_recipe_db';
 $db['live']['dbdriver'] = 'mysql';
 $db['live']['dbprefix'] = '';
 $db['live']['pconnect'] = TRUE;

@@ -2,9 +2,6 @@
 
 class recipemodel extends CI_Model {
 
-    var $title   = '';
-    var $content = '';
-    var $date    = '';
     function get_all()
     {
         $query = $this->db->get('recipes');
@@ -19,7 +16,7 @@ class recipemodel extends CI_Model {
         $this->steps = $this->input->post('steps', TRUE);
         $this->mealtype = $this->input->post('mealtype', TRUE);
 
-        $this->db->insert('recipes', $this);
+        return $this->db->insert('recipes', $this);
     }
 
     function update_entry()

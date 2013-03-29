@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Json",
+				"json_encode"
+			],
+			[
 				"dess",
 				"dessert"
 			],
@@ -63,7 +67,23 @@
 			"file": "application/controllers/api.php",
 			"settings":
 			{
-				"buffer_size": 1235,
+				"buffer_size": 1970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/models/recipemodel.php",
+			"settings":
+			{
+				"buffer_size": 916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3766,
 				"line_ending": "Unix"
 			}
 		}
@@ -163,27 +183,15 @@
 					"file": "application/controllers/api.php",
 					"settings":
 					{
-						"buffer_size": 1235,
+						"buffer_size": 1970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1033,
-								1033
-							],
-							[
-								1047,
-								1047
-							],
-							[
-								1062,
-								1062
-							],
-							[
-								1073,
-								1073
+								1685,
+								1685
 							]
 						],
 						"settings":
@@ -192,7 +200,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 250.0,
+						"translation.y": 777.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/models/recipemodel.php",
+					"settings":
+					{
+						"buffer_size": 916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/config/database.php",
+					"settings":
+					{
+						"buffer_size": 3766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3312,
+								3312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

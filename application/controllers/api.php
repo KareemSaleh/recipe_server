@@ -53,7 +53,7 @@ class api extends CI_Controller {
 
 		if($output != null) 
 		{	
-			$this->output->set_status_header('200');
+			$this->output->set_content_type('application/json')->set_status_header('200');
 			$this->output->set_output(json_encode($output));
 		}
 		else
@@ -74,12 +74,11 @@ class api extends CI_Controller {
 
 		if($isOK)
 		{		
-			$this->output->set_status_header('200');
-			$this->output->set_output(json_encode($output));
+			$this->output->set_content_type('application/json')->set_status_header('200');
+			$this->output->set_output("Thanks!");
 		}
 		else
 		{
-			$this->output->set_status_header('500');
 			echo "Error adding item with name " . $this->input->post('name');
 		}
 	}
